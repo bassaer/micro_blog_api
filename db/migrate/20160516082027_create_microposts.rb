@@ -1,6 +1,6 @@
-class CreateTweets < ActiveRecord::Migration
+class CreateMicroposts < ActiveRecord::Migration
   def change
-    create_table :tweets do |t|
+    create_table :microposts do |t|
       t.string :title
       t.text :body
 
