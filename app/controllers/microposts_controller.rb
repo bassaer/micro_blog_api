@@ -1,7 +1,6 @@
 class MicropostsController < ApplicationController
   before_action :set_micropost, only: [:show, :edit, :update, :destroy]
   protect_from_forgery with: :null_session
-  
   # GET /microposts
   # GET /microposts.json
   def index
